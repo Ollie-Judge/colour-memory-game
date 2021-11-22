@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+}
+
+#title {
+    font-size: 4rem;
+    margin: 5%;
+}
+
+.gameText {
+    font-size: 3.5rem;
+    margin: 5%;
+}
