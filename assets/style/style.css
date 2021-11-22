@@ -1,6 +1,7 @@
 body {
     text-align: center;
     font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 2.5px;
 }
 
 #title {
@@ -14,5 +15,16 @@ body {
 }
 
 .container {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
 
+.btn {
+    margin: 30px;
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    border: 6px solid black;
+    border-radius: 60%;
 }
