@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Luckiest Guy', cursive;
 }
 
 #title {
@@ -11,4 +11,8 @@ body {
 .gameText {
     font-size: 3.5rem;
     margin: 5%;
+}
+
+.container {
+
 }
