@@ -28,3 +28,30 @@ body {
     border: 6px solid black;
     border-radius: 60%;
 }
+
+/* Colours */
+.pink {
+    background-color: #ed7f8c;
+}
+
+.yellow {
+    background-color: #feff35;
+}
+
+.turquoise {
+    background-color: #d5ebf6;
+}
+
+.brown {
+    background-color: #bb8b1f;
+}
+
+/* Interactive parts triggered by js */
+
+.endGame {
+    background-color: red;
+}
+
+.chosen {
+    background-color: grey;
+}
