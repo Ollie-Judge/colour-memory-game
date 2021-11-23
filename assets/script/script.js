@@ -33,11 +33,11 @@ function checkAnswer(presentLevel) {
 
         console.log("completed"); /* posts this in the console if the correct div has been selected by the user */
 
-        if (chosenPattern.length === pattern) {
+        if (chosenPattern.length === pattern.length) {
 
             setTimeout(function() {
                 ensuingPattern();
-            }, 1500);
+            }, 500);
         }
 
     } else {
