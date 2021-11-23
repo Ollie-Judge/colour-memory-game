@@ -1,9 +1,10 @@
 ---------
 ## User Requirements
-
+* Game must be fun and enjoyable
+* Game must be responsive
 ---------
 ## Owner Goals
-
+* I want the user to enjoy the game
 ---------
 ## Wire Frames
 
