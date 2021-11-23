@@ -24,6 +24,6 @@
 
 ---------
 ## Issues when making the project
-
+* Connecting the background image to the project
 ---------
 ## Credits
