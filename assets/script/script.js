@@ -31,7 +31,7 @@ function checkAnswer(presentLevel) {
 
     if (pattern[presentLevel] === chosenPattern[presentLevel]) {
 
-        console.log("completed");
+        console.log("completed"); /* posts this in the console if the correct div has been selected by the user */
 
         if (chosenPattern.length === pattern) {
 
@@ -42,7 +42,14 @@ function checkAnswer(presentLevel) {
 
     } else {
 
-        console.log("incorrect");
+        console.log("incorrect"); /* posts this in the console if the wrong div has been selected by the user */
+
+        $('body').addClass('endGame');
+        setTimeout(function() {
+            $('body').removeClass('endGame');
+        }, 500);
+
+        $('gameText').text("Game Over, to restart and play again, press any key");
 
     }
 
