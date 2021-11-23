@@ -47,9 +47,9 @@ function checkAnswer(presentLevel) {
         $('body').addClass('endGame');
         setTimeout(function() {
             $('body').removeClass('endGame');
-        }, 500);
+        }, 100);
 
-        $('gameText').text("Game Over, to restart and play again, press any key");
+        $('#gameText').text("Game Over, to restart and play again, press any key");
 
         startAgain();
 
