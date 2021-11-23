@@ -11,8 +11,8 @@ $(document).keypress(function() {
     if(!begun) {
         $("#gameText").text("Level " + level); /* when any key on the keyboard gets pressed this function activates, 
         which runs this line here which changes the "gameText" element content to display the level youre on instead of start instructions */
-        ensuingPattern();
-        begun = true;
+        ensuingPattern(); /*calls the function ensuing pattern which will generate the random colour*/
+        begun = true; /* begins the game once a key has been pushed */
     }
 });
 
