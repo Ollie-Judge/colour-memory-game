@@ -21,11 +21,36 @@ $('.btn').click(function() {
 
     var selectedColour = $(this).attr("id") /* chooses the id attribute in the div that has been selected by the user */
     chosenPattern.push(selectedColour); /* pushes that chosen div to an empty array called "selected colour" */
-    animateClick(selectedColour); /* connects up teh animation in the function called "animateClick" top the click function we're in here */
+    animateClick(selectedColour); /* connects up the animation in the function called "animateClick" top the click function we're in here */
+
+    checkAnswer(chosenPattern.length-1);
 
 });
 
+function checkAnswer(presentLevel) {
+
+    if (pattern[presentLevel] === chosenPattern[presentLevel]) {
+
+        console.log("completed");
+
+        if (chosenPattern.length === pattern) {
+
+            setTimeout(function() {
+                ensuingPattern();
+            }, 1500);
+        }
+
+    } else {
+
+        console.log("incorrect");
+
+    }
+
+}
+
 function ensuingPattern() {
+
+    chosenPattern = [];
 
     level++; /* incrementally progresses the game */
     $("#gameText").text("Level " + level);
