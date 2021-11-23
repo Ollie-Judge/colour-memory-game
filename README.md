@@ -12,6 +12,11 @@
 
 ---------
 ## Technologies Used
+* HTML
+* CSS
+* JavaScript
+* Jquery
+* Google Fonts
 
 ---------
 ## Testing
