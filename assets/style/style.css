@@ -15,19 +15,38 @@ body {
     margin: 5%;
 }
 
-.container {
-    display: block;
+/* interactive game components */
+
+.gameContainer {
+    display: inline-block;
     width: 50%;
-    margin: auto;
+    margin-right: -30%;
+    background-color: green ;
+    border: 6px solid rgb(58, 52, 52);
+    border-radius: 15%;
 }
 
 .btn {
-    margin: 30px;
+    margin: 1.5rem;
     display: inline-block;
-    height: 250px;
-    width: 250px;
+    height: 15.625rem;
+    width: 15.625rem;
     border: 6px solid black;
     border-radius: 60%;
+}
+
+/* instructions */
+
+.instructions {
+    display: inline-block;
+    width: 25%;
+    height: 15%;
+    padding: 1rem;
+    margin-top: -35%;
+    margin-right: 65%;
+    background-color: yellow ;
+    border: 6px solid rgb(58, 52, 52);
+    border-radius: 15%;
 }
 
 /* Colours */
