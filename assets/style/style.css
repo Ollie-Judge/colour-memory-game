@@ -2,6 +2,7 @@ body {
     text-align: center;
     font-family: 'Luckiest Guy', cursive;
     letter-spacing: 2.5px;
+    background-image: url('../img/bikini-bottom.jpeg');
 }
 
 #title {
