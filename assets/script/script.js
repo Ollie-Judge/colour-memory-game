@@ -51,6 +51,8 @@ function checkAnswer(presentLevel) {
 
         $('gameText').text("Game Over, to restart and play again, press any key");
 
+        startAgain();
+
     }
 
 }
@@ -78,4 +80,12 @@ function animateClick(chosenColour) {
     setTimeout(function() {
         $('#' + chosenColour).removeClass('chosen'); /* removes the "chosen" class from the div selected by the user */
     }, 150); /* Gives the animation a speed at which it removes the class */
+}
+
+function startAgain() {
+
+    level = 0;
+    pattern = [];
+    begun = false;
+
 }
