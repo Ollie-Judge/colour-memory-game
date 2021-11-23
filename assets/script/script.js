@@ -10,6 +10,8 @@ $('.btn').click(function() {
 
     chosenPattern.push(selectedColour);
 
+    animateClick(selectedColour);
+
 });
 
 function ensuingPattern() {
@@ -21,5 +23,14 @@ function ensuingPattern() {
     pattern.push(randomColour);
 
     $('#' + randomColour).fadeIn(150).fadeOut(150).fadeIn(150);
-    
+
+}
+
+function animateClick(chosenColour) {
+
+    $('#' + chosenColour).addClass('chosen');
+
+    setTimeout(function() {
+        $('#' + chosenColour).removeClass('chosen');
+    }, 150);
 }
