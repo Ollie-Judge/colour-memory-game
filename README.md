@@ -40,7 +40,7 @@
 
 * Colours appear in their own seperate columns which doesnt make it easy for the user to see or play the game - (FIXED) changed the height and width measurement units from rem to vh and vw to make the project more responsive to different devices.
 
-* When you loose the game instead of 
+* when you loose the game the game jumps to level 1 instead of showing the game over message -
 ---------
 ## Credits
 * https://stackoverflow.com/questions/14304473/jquery-fadein-delay-fadeout - for fading in and out divs
