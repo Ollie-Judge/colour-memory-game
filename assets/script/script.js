@@ -1,8 +1,8 @@
-var colours = ["pink", "yellow", "lightblue", "brown"]
+var colours = ["pink", "yellow", "lightblue", "brown"];
 
 var pattern = []; /* randomly generated pattern */
 
-chosenPattern = []; /* user selected pattern */
+var chosenPattern = []; /* user selected pattern */
 
 var begun = false; /* stops the game from just starting on its own */
 var level = 0; /* sets the game level to 0 at the beginning and changes as the game progresses */
@@ -19,7 +19,7 @@ $(document).click(function() {
 
 $(".btn").click(function() {
 
-    var selectedColour = $(this).attr("id") /* chooses the id attribute in the div that has been selected by the user */
+    var selectedColour = $(this).attr("id"); /* chooses the id attribute in the div that has been selected by the user */
     chosenPattern.push(selectedColour); /* pushes that chosen div to an empty array called "selected colour" */
     animateClick(selectedColour); /* connects up the animation in the function called "animateClick" top the click function we're in here */
 
