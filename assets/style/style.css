@@ -10,27 +10,22 @@ body {
     margin-top: 3%;
 }
 
-.gameText {
-    font-size: 3.5rem;
-    margin: 5%;
-}
-
 /* interactive game components */
 
 .gameContainer {
     display: inline-block;
-    width: 50%;
-    margin-right: -30%;
+    margin: 4rem;
+    width: 50vw;
     background-color: green ;
     border: 6px solid rgb(58, 52, 52);
     border-radius: 15%;
 }
 
 .btn {
-    margin: 1.5rem;
+    margin: 0.5rem;
     display: inline-block;
-    height: 15.625rem;
-    width: 15.625rem;
+    height: 28vh;
+    width: 17vw;
     border: 6px solid black;
     border-radius: 60%;
 }
@@ -38,12 +33,11 @@ body {
 /* instructions */
 
 .instructions {
+    margin: auto;
     display: inline-block;
-    width: 25%;
+    width: 50%;
     height: 15%;
     padding: 1rem;
-    margin-top: -35%;
-    margin-right: 65%;
     background-color: yellow ;
     border: 6px solid rgb(58, 52, 52);
     border-radius: 15%;
