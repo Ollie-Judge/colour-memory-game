@@ -39,6 +39,9 @@
 * Doesnt work on phone as it requires a keyboard button to be pushed which cant be done on a phone or tablet- (FIXED) changed the keypress function to a .click function which makes it friendly to mobile and tablet users as well as computer users.
 
 * Colours appear in their own seperate columns which doesnt make it easy for the user to see or play the game - (FIXED) changed the height and width measurement units from rem to vh and vw to make the project more responsive to different devices.
+
+* When you loose the game instead of 
 ---------
 ## Credits
 * https://stackoverflow.com/questions/14304473/jquery-fadein-delay-fadeout - for fading in and out divs
+* https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/ - used for understanding what unit of measurement to use to be the most responsive.
