@@ -7,9 +7,9 @@ chosenPattern = []; /* user selected pattern */
 var begun = false; /* stops the game from just starting on its own */
 var level = 0; /* sets the game level to 0 at the beginning and changes as the game progresses */
 
-$(document).keypress(function() {
+$(document).click(function() {
     if(!begun) {
-        $("#gameText").text("Level " + level); /* when any key on the keyboard gets pressed this function activates, 
+        $("#gameText").text("Level " + level); /* when anywhere on the document gets clicked this function activates, 
         which runs this line here which changes the "gameText" element content to display the level youre on instead of start instructions */
         ensuingPattern(); /*calls the function ensuing pattern which will generate the random colour*/
         begun = true; /* begins the game once a key has been pushed */
