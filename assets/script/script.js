@@ -9,8 +9,6 @@ var level = 0; /* sets the game level to 0 at the beginning and changes as the g
 
 $(document).click(function() {
     if(!begun) {
-        $("#gameText").text("Level " + level); /* when anywhere on the document gets clicked this function activates, 
-        which runs this line here which changes the "gameText" element content to display the level youre on instead of start instructions */
         ensuingPattern(); /*calls the function ensuing pattern which will generate the random colour*/
         begun = true; /* begins the game once a key has been pushed */
     }
@@ -39,6 +37,8 @@ function checkAnswer(presentLevel) {
             setTimeout(function() {
                 ensuingPattern(); /* calls the main function of generating a random colour */
             }, 1000);
+            level++; /* incrementally progresses the game */
+            $("#gameText").text("Level " + level);
         }
 
     } else {
@@ -50,7 +50,7 @@ function checkAnswer(presentLevel) {
             $("body").removeClass("endGame"); /* Removes the endGame class from the body */
         }, 200);
 
-        $("#gameText").text("Game Over, click anywhere on the screen to restart and play again"); /* adds the game over text to the gameText id */
+        $("#gameText").text("Game Over, click on the reload button to restart and play again"); /* adds the game over text to the gameText id */
         startAgain(); /* Calls the startAgain function */
     }
 
@@ -59,9 +59,6 @@ function checkAnswer(presentLevel) {
 function ensuingPattern() {
 
     chosenPattern = [];
-
-    level++; /* incrementally progresses the game */
-    $("#gameText").text("Level " + level);
 
     var randomNumber = Math.floor(Math.random() * 4); /* Generates random number between 0 and 3 */
     var randomColour = colours[randomNumber]; /* Grabs the random number from above and corresponds it to the array, 
