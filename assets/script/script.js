@@ -17,7 +17,7 @@ $(document).click(function() {
 });
 
 
-$('.btn').click(function() {
+$(".btn").click(function() {
 
     var selectedColour = $(this).attr("id") /* chooses the id attribute in the div that has been selected by the user */
     chosenPattern.push(selectedColour); /* pushes that chosen div to an empty array called "selected colour" */
@@ -29,30 +29,29 @@ $('.btn').click(function() {
 
 function checkAnswer(presentLevel) {
 
-    if (pattern[presentLevel] === chosenPattern[presentLevel]) {
+    if (pattern[presentLevel] === chosenPattern[presentLevel]) { /* Checks to see if the generated pattern  matches the user chosen pattern exactly */
 
         console.log("completed"); /* posts this in the console if the correct div has been selected by the user */
 
-        if (chosenPattern.length === pattern.length) {
+        if (chosenPattern.length === pattern.length) { /* if the users pattern matches the generated pattern then it will send the 
+            game back to random generation for a new addition to the pattern */
 
             setTimeout(function() {
-                ensuingPattern();
-            }, 500);
+                ensuingPattern(); /* calls the main function of generating a random colour */
+            }, 1000);
         }
 
     } else {
 
         console.log("incorrect"); /* posts this in the console if the wrong div has been selected by the user */
 
-        $('body').addClass('endGame');
+        $("body").addClass("endGame"); /* add the endGame class to the body */
         setTimeout(function() {
-            $('body').removeClass('endGame');
-        }, 100);
+            $("body").removeClass("endGame"); /* Removes the endGame class from the body */
+        }, 200);
 
-        $('#gameText').text("Game Over, to restart and play again, press any key");
-
-        startAgain();
-
+        $("#gameText").text("Game Over, click anywhere on the screen to restart and play again"); /* adds the game over text to the gameText id */
+        startAgain(); /* Calls the startAgain function */
     }
 
 }
@@ -75,17 +74,17 @@ function ensuingPattern() {
 
 function animateClick(chosenColour) {
 
-    $('#' + chosenColour).addClass('chosen'); /* looks at the class of the chosen div and adds the class "chosen" to it */
+    $("#" + chosenColour).addClass("chosen"); /* looks at the class of the chosen div and adds the class "chosen" to it */
 
     setTimeout(function() {
-        $('#' + chosenColour).removeClass('chosen'); /* removes the "chosen" class from the div selected by the user */
+        $("#" + chosenColour).removeClass("chosen"); /* removes the "chosen" class from the div selected by the user */
     }, 150); /* Gives the animation a speed at which it removes the class */
 }
 
 function startAgain() {
 
-    level = 0;
-    pattern = [];
-    begun = false;
+    level = 0; /* Sets the level back to 0 */
+    pattern = []; /* Sets the game pattern back to default */
+    begun = false; /* Sets the start locking mechanism back to false which means it wont just start on its own */
 
 }
