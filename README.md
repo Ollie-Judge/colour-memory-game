@@ -40,8 +40,10 @@
 
 * Colours appear in their own seperate columns which doesnt make it easy for the user to see or play the game - (FIXED) changed the height and width measurement units from rem to vh and vw to make the project more responsive to different devices.
 
-* when you loose the game the game jumps to level 1 instead of showing the game over message -
+* when you loose the game the game jumps to level 1 instead of showing the game over message - (FIXED) the level display text was in the wrong place, stopping the if else statement from displaying correctly, due to the level text overriding the else part.
 ---------
 ## Credits
+* https://wallpapercave.com/spongebob-underwater-wallpapers - for the background image
+* https://fonts.google.com/
 * https://stackoverflow.com/questions/14304473/jquery-fadein-delay-fadeout - for fading in and out divs
 * https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/ - used for understanding what unit of measurement to use to be the most responsive.
