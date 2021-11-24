@@ -15,7 +15,7 @@ body {
 .gameContainer {
     display: inline-block;
     margin: 4rem;
-    width: 50vw;
+    width: 60vw;
     background-color: green ;
     border: 6px solid rgb(58, 52, 52);
     border-radius: 15%;
