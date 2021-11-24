@@ -23,7 +23,7 @@ $(".btn").click(function() {
     chosenPattern.push(selectedColour); /* pushes that chosen div to an empty array called "selected colour" */
     animateClick(selectedColour); /* connects up the animation in the function called "animateClick" top the click function we're in here */
 
-    checkAnswer(chosenPattern.length-1);
+    checkAnswer(chosenPattern.length-1); /* Calls the check answer function with the user chosen pattern*/
 
 });
 
