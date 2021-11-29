@@ -7,10 +7,12 @@
 * I want the user to enjoy the game
 ---------
 ## Wire Frames
-
+![Wire Frame for the memory game](assets/img/memory-game-wireframe.png)
 ---------
 ## Features
-* 
+* Interactive buttons that respond on user inputs
+* Spongebob themed, each colour represents a character; pink = patrick, yellow = Spongebob, blue = Squidword, brown = Mr crabs
+
 ---------
 ## Technologies Used
 * HTML
@@ -22,9 +24,24 @@
 ---------
 ## Testing
 
+### HTML validation
+![]()
+
+### CSS Validation
+
+### JavaScript Validation
+
 ---------
 ## Deployment
 
+### Deploying to GitHub Pages
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository, click on the "Settings" Button in the menu.
+3. In the Settings page scroll down until you find the "Pages" area.
+4. Click on the link in the "Pages" section, which will send you to the dedicated tab.
+5. then, in the "Source" area, click the dropdown called "None" then select "Master Branch".
+6. The page will automatically refresh.
+7. Finally, scroll down the page to locate the newly published site in the "GitHub Pages" section.
 ---------
 ## What To Improve Or Add
 
