@@ -1,13 +1,25 @@
 # SpongeBob Colour Memory Game
 ---------
 ![Responsive Game Image](assets/img/responsive-spongebob.png)
+---------
+## User Experience (UX)
 
 ## User Requirements
 * Game must be fun and enjoyable
 * Game must be responsive
----------
+
 ## Owner Goals
 * I want the user to enjoy the game
+
+## Design
+
+## Colour Scheme
+    * The colours used on the website represent the colours of each Spongebob character (the colours used are pink = patrick, yellow = Spongebob, blue = Squidword, brown = Mr crabs)
+    * the background box for the game is green due to it contrasting against the button colours very well, which will make it easier to see the game for everyone including those who are colour blind or visually impaired.
+
+## Typeography
+
+For the type face, i used a cartoonish style to match the overall idea of the game, which is a spongebob themed game, Due to copyright regulations, i am unable to usethe exact font, so, instead i have made do wiht a similar font that i feel gives off the same feel and look. the font is "Luckiest Guy" and was found on Google fonts. For more information on this, you can find the link in the credits section.
 ---------
 ## Wire Frames
 ![Wire Frame for the memory game](assets/img/memory-game-wireframe.png)
@@ -16,7 +28,6 @@
 * Responsive on all devices
 * Custom interactive buttons that respond to user inputs
 * Text that changes depending on the level the user is on
-* Spongebob themed, each colour represents a character; pink = patrick, yellow = Spongebob, blue = Squidword, brown = Mr crabs
 * Contrasting background, making it easy to see which colour is which
 * Instructions below the game to help the user understand what they need to do to play
 
