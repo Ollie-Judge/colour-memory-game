@@ -13,8 +13,12 @@
 ![Wire Frame for the memory game](assets/img/memory-game-wireframe.png)
 ---------
 ## Features
-* Interactive buttons that respond on user inputs
+* Responsive on all devices
+* Custom interactive buttons that respond to user inputs
+* Text that changes depending on the level the user is on
 * Spongebob themed, each colour represents a character; pink = patrick, yellow = Spongebob, blue = Squidword, brown = Mr crabs
+* Contrasting background, making it easy to see which colour is which
+* Instructions below the game to help the user understand what they need to do to play
 
 ---------
 ## Technologies Used
@@ -23,6 +27,11 @@
 * JavaScript
 * Jquery
 * Google Fonts
+* Balsamiq
+* GNU Image Manipulation
+* Git
+* GitHub
+* GitPod
 
 ---------
 ## Testing
