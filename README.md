@@ -7,7 +7,7 @@
 
 ## User Stories
 
-* I would like to be able to understand howto play the game easily
+* I would like to be able to understand how to play the game easily
     This has been completed by:
     * placing an instructions box below the game allowing the user to understand exactly what to do by reading the text
 * I want the game to be fun and enjoyable
@@ -20,6 +20,8 @@
 ## Owner stories
 
 * I want the user to enjoy the game
+    This has been completed by:
+    * The game being responsive to the user, when you click a button, you know you have clicked it as it breifly changes colour to grey. It has also been made enjoyable by having an increasing level system, which tells you how far you are, thus making it competitive.
 
 ## Design
 
