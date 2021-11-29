@@ -1,5 +1,7 @@
 # SpongeBob Colour Memory Game
 ---------
+![Responsive Game Image](assets/img/responsive-spongebob.png)
+
 ## User Requirements
 * Game must be fun and enjoyable
 * Game must be responsive
