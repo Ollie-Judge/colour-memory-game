@@ -1,28 +1,41 @@
 # SpongeBob Colour Memory Game
 ---------
 ![Responsive Game Image](assets/img/responsive-spongebob.png)
+
 ---------
 ## User Experience (UX)
 
-## User Requirements
-* Game must be fun and enjoyable
-* Game must be responsive
+## User Stories
 
-## Owner Goals
+* I would like to be able to understand howto play the game easily
+    This has been completed by:
+    * placing an instructions box below the game allowing the user to understand exactly what to do by reading the text
+* I want the game to be fun and enjoyable
+    This has been completed by:
+    * The game being responsive to the user, when you click a button, you know you have clicked it as it breifly changes colour to grey. It has also been made enjoyable by having an increasing level system, which tells you how far you are, thus making it competitive.
+* Game must be responsive to different device types
+    This has been completed by:This has been completed by:
+    * Using responsive designs and layouts which change to the devices requirements
+
+## Owner stories
+
 * I want the user to enjoy the game
 
 ## Design
 
 ## Colour Scheme
-    * The colours used on the website represent the colours of each Spongebob character (the colours used are pink = patrick, yellow = Spongebob, blue = Squidword, brown = Mr crabs)
-    * the background box for the game is green due to it contrasting against the button colours very well, which will make it easier to see the game for everyone including those who are colour blind or visually impaired.
+
+* The colours used on the website represent the colours of each Spongebob character (the colours used are pink = patrick, yellow = Spongebob, blue = Squidword, brown = Mr crabs)
+* the background box for the game is green due to it contrasting against the button colours very well, which will make it easier to see the game for everyone including those who are colour blind or visually impaired.
 
 ## Typeography
 
 For the type face, i used a cartoonish style to match the overall idea of the game, which is a spongebob themed game, Due to copyright regulations, i am unable to usethe exact font, so, instead i have made do wiht a similar font that i feel gives off the same feel and look. the font is "Luckiest Guy" and was found on Google fonts. For more information on this, you can find the link in the credits section.
+
 ---------
 ## Wire Frames
 ![Wire Frame for the memory game](assets/img/memory-game-wireframe.png)
+
 ---------
 ## Features
 * Responsive on all devices
