@@ -35,6 +35,7 @@
 ## Deployment
 
 ### Deploying to GitHub Pages
+
 1. Log in to GitHub and locate the GitHub Repository
 2. At the top of the Repository, click on the "Settings" Button in the menu.
 3. In the Settings page scroll down until you find the "Pages" area.
@@ -42,6 +43,14 @@
 5. then, in the "Source" area, click the dropdown called "None" then select "Master Branch".
 6. The page will automatically refresh.
 7. Finally, scroll down the page to locate the newly published site in the "GitHub Pages" section.
+
+## Forking The Repositiory
+
+Forking the GitHub repository makes a copy of the original repository on your GitHUb account, which allows you to make changes to the document wihtout changing the original repository. If you wish to make a clone, follow these steps on how ot do it:
+
+1. Log in to your GitHub account and locate the repository.
+2. At the top of the repository above the "Settings" button on the menu, find and click the "Fork" button.
+3. After clicking the "Fork" button, You will now have a copy of the original repository in your GitHub account.
 ---------
 ## What To Improve Or Add
 
