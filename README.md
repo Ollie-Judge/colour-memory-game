@@ -72,7 +72,7 @@ Forking the GitHub repository makes a copy of the original repository on your Gi
 4. Open Git Bash
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type git clone, and paste the URL that you copied in Step 3.
-    * Your code should look like this: $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    * Your code should look like this: `$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
 7. Press Enter and then your local clone will be created.
 ---------
 ## What To Improve Or Add
