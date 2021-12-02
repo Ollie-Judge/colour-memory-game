@@ -73,6 +73,14 @@ For the type face, i used a cartoonish style to match the overall idea of the ga
 ### HTML validation
 ![HTML Validation Showing Errors](assets/img/HTML-val-errors.png)
 
+#### Errors found with the HTML
+
+* Error found on line 28, attribute type not allowed on element div at this point
+* Error found on line 36, attribute type not allowed on element div at this point
+* Error found on line 40, attribute type not allowed on element div at this point
+
+* all of these errors have been fixed by changing the type to a data type
+
 ![HTML Validation Showing No Errors](assets/img/HTML-corrected.png)
 
 ### CSS Validation
@@ -81,7 +89,27 @@ For the type face, i used a cartoonish style to match the overall idea of the ga
 ### JavaScript Validation
 ![JavaScript Validation Showing Errors](assets/img/js-val-errors.png)
 
+#### Errors found with the JavaScript
+
+*   The error was i did not declare "chosenPattern" as a variable by putting "var" before the variable, as soon as i did this, the error messages went away.
+*   The "$" errors are from the JQuery i have used, the validator i used doesnt identify JQuery.
+
 ![JavaScript Validation Showing No Errors](assets/img/js-correct.png)
+
+### Manual Testing
+
+* The game has been tested on Google Chrome, Internet Explorer, Mozilla Firefox, Safari and Brave browsers.
+* The website has been viewed on a variety of devices such as Desktop, Laptop, iPhone and Android phones.
+* A large amount of testing was done to ensure that all pages were linking correctly.
+* Friends and family members have been asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Manual Testing Screenshots
+
+![]()
+
+### Known Issues
+
+* 
 
 ---------
 ## Deployment
@@ -133,6 +161,6 @@ Forking the GitHub repository makes a copy of the original repository on your Gi
 ---------
 ## Credits
 * https://wallpapercave.com/spongebob-underwater-wallpapers - for the background image
-* https://fonts.google.com/
-* https://stackoverflow.com/questions/14304473/jquery-fadein-delay-fadeout - for fading in and out divs
+* https://fonts.google.com/ - Used for finding and adding a custom font that goes by the name of "Luckiest Guy".
+* https://stackoverflow.com/questions/14304473/jquery-fadein-delay-fadeout - for fading in and out divs.
 * https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/ - used for understanding what unit of measurement to use to be the most responsive.
