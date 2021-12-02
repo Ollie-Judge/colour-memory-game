@@ -71,11 +71,17 @@ For the type face, i used a cartoonish style to match the overall idea of the ga
 ## Testing
 
 ### HTML validation
-![]()
+![HTML Validation Showing Errors](assets/img/HTML-val-errors.png)
+
+![HTML Validation Showing No Errors](assets/img/HTML-corrected.png)
 
 ### CSS Validation
+![CSS Validation Showing No Issues](assets/img/CSS-val.png)
 
 ### JavaScript Validation
+![JavaScript Validation Showing Errors](assets/img/js-val-errors.png)
+
+![JavaScript Validation Showing No Errors](assets/img/js-correct.png)
 
 ---------
 ## Deployment
