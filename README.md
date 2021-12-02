@@ -7,19 +7,19 @@
 
 ## User Stories
 
-* I would like to be able to understand how to play the game easily
+* I would like to be able to understand how to play the game easily.
     This has been completed by:
     * placing an instructions box below the game allowing the user to understand exactly what to do by reading the text
-* I want the game to be fun and enjoyable
+* I want the game to be fun and enjoyable.
     This has been completed by:
     * The game being responsive to the user, when you click a button, you know you have clicked it as it breifly changes colour to grey. It has also been made enjoyable by having an increasing level system, which tells you how far you are, thus making it competitive.
-* Game must be responsive to different device types
+* Game must be responsive to different device types.
     This has been completed by:This has been completed by:
     * Using responsive designs and layouts which change to the devices requirements
 
 ## Owner stories
 
-* I want the user to enjoy the game
+* I want the user to enjoy the game.
     This has been completed by:
     * The game being responsive to the user, when you click a button, you know you have clicked it as it breifly changes colour to grey. It has also been made enjoyable by having an increasing level system, which tells you how far you are, thus making it competitive.
 
@@ -49,15 +49,23 @@ For the type face, i used a cartoonish style to match the overall idea of the ga
 ---------
 ## Technologies Used
 * HTML
+    * HTML is used to create the skeleton of the website and to lay down the fundementals that build this game.
 * CSS
+    * CSS is used to style the game and to provide individual style to specific elements.
 * JavaScript
+    * JavaScript is used to bring interactive functionality into the game,
 * Jquery
+    * Jquery is a simpler version of JavaScript which for this project is used to simplify and shorten the JavaScript code.
 * Google Fonts
+    * Google fonts was used to import one font, which formed the entirety of the website text, this fonts name is "Luckiest Guy".
 * Balsamiq
+    * Balsamiq has been used to design the wireframe
 * GNU Image Manipulation
+    * This is a Free to use image manipulation software that has been used to crop and edit the background image and images in the README file.
 * Git
+    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * GitHub
-* GitPod
+    * GitHub is used to store the projects code after being pushed from Git.
 
 ---------
 ## Testing
