@@ -71,6 +71,9 @@ For the type face, i used a cartoonish style to match the overall idea of the ga
 ## Testing
 
 ### HTML validation
+
+#### HTML validation errors
+
 ![HTML Validation Showing Errors](assets/img/HTML-val-errors.png)
 
 #### Errors found with the HTML
@@ -81,18 +84,28 @@ For the type face, i used a cartoonish style to match the overall idea of the ga
 
 * all of these errors have been fixed by changing the type to a data type
 
+#### HTML corrected
+
 ![HTML Validation Showing No Errors](assets/img/HTML-corrected.png)
 
 ### CSS Validation
+
+#### CSS validation with no errors
+
 ![CSS Validation Showing No Issues](assets/img/CSS-val.png)
 
 ### JavaScript Validation
+
+#### JavaScript validation showing errors
+
 ![JavaScript Validation Showing Errors](assets/img/js-val-errors.png)
 
 #### Errors found with the JavaScript
 
 *   The error was i did not declare "chosenPattern" as a variable by putting "var" before the variable, as soon as i did this, the error messages went away.
 *   The "$" errors are from the JQuery i have used, the validator i used doesnt identify JQuery.
+
+#### Javascript corrected
 
 ![JavaScript Validation Showing No Errors](assets/img/js-correct.png)
 
