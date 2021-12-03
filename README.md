@@ -105,7 +105,33 @@ For the type face, i used a cartoonish style to match the overall idea of the ga
 
 ### Manual Testing Screenshots
 
-![]()
+#### Checking if the CSS and the JavaScript is connected to the HTML document 
+
+![Screenshot of checking if the css and js is connected](assets/img/js-css-connect.png)
+
+![Screenshot of checking if the JQuery is connected](assets/img/JQuery-connect.png)
+
+#### Checking to see if the random number/colour generation is functioning properly
+
+![Screenshot of checking if the random number generator is working](assets/img/rand-num-check.png)
+
+![Screenshot of checking if the random colour generator is working](assets/img/rand-colour-check.png)
+
+#### Cecking to see if the user inputs function correctly
+
+![Screenshot of checking if the user selected button pattern is working](assets/img/chosen-pattern-check.png)
+
+![Screenshot of checking if when the user clicks a button, the chosen class is added](assets/img/chosen-class-check.png)
+
+![Screenshot of checking if the opacity change when the button is clicked is working](assets/img/opacity-check.png)
+
+#### Checking if the code compares the user selected color against the randomly generated colour
+
+![Screenshot of checking if the generated colour can be checked against the user input is working](assets/img/right-wrong-check.png)
+
+#### Checking the endGame code
+
+![Screenshot of checking if the endGame class is added when you loose is working](assets/img/endgame-class-check.png)
 
 ### Known Issues
 
