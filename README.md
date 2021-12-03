@@ -122,15 +122,18 @@ For the type face, i used a cartoonish style to match the overall idea of the ga
 
 ![Screenshot of checking if the css and js is connected](assets/img/js-css-connect.png)
 
+##### Checking to see if the JQuery is connected to the HTML documnet
 ![Screenshot of checking if the JQuery is connected](assets/img/JQuery-connect.png)
 
 #### Checking to see if the random number/colour generation is functioning properly
 
+##### Checking to see if the random number generator is working
 ![Screenshot of checking if the random number generator is working](assets/img/rand-num-check.png)
 
+##### Checking to see if the random colour generator is working
 ![Screenshot of checking if the random colour generator is working](assets/img/rand-colour-check.png)
 
-#### Cecking to see if the user inputs function correctly
+#### Checking to see if the user inputs function correctly
 
 ![Screenshot of checking if the user selected button pattern is working](assets/img/chosen-pattern-check.png)
 
