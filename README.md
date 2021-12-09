@@ -122,32 +122,50 @@ For the type face, i used a cartoonish style to match the overall idea of the ga
 
 ![Screenshot of checking if the css and js is connected](assets/img/js-css-connect.png)
 
+* The above Screenshot is showing the connectivity between the external css file, the external Javascript file and the index.html document, the connectivity is proven by having th ebackground colour changed to blue from the standard white and the external JavaScript connectivity is checked by showing an alert prompt poping up when the page is loaded.
+
 ##### Checking to see if the JQuery is connected to the HTML document
 ![Screenshot of checking if the JQuery is connected](assets/img/JQuery-connect.png)
+
+* The above screenshot shows that the JQuery CDN is connected to the HTML file. It shows this in the console, when i type $('h1'), it will show me the element that has the h1 heading element attached.
 
 #### Checking to see if the random number/colour generation is functioning properly
 
 ##### Checking to see if the random number generator is working
 ![Screenshot of checking if the random number generator is working](assets/img/rand-num-check.png)
 
+* The above screenshot shows that the random number generator is working, in the console you will se a number that has been generated, which shows that the number generator is working.
+
 ##### Checking to see if the random colour generator is working
 ![Screenshot of checking if the random colour generator is working](assets/img/rand-colour-check.png)
+
+* The above screenshot shows that the random number generator has successfully been connected to an array that will out put one of the 4 colours that correspond to the buttons shown that represent a character from spongebob.
 
 #### Checking to see if the user inputs function correctly
 
 ![Screenshot of checking if the user selected button pattern is working](assets/img/chosen-pattern-check.png)
 
+* The above screenshot shows that the console is logging the users button selections and displaying them in an array that is designed to collect this data.
+
 ![Screenshot of checking if when the user clicks a button, the chosen class is added](assets/img/chosen-class-check.png)
 
+* The above screenshot checks in the class "chosenColour" is added to the coresponding button that the user has clicked
+
 ![Screenshot of checking if the opacity change when the button is clicked is working](assets/img/opacity-check.png)
+
+* The above screenshot shows the opacity change when a user clicks on a button
 
 #### Checking if the code compares the user selected color against the randomly generated colour
 
 ![Screenshot of checking if the generated colour can be checked against the user input is working](assets/img/right-wrong-check.png)
 
+* The above screenshot shows in the console that the user array either matches or doesnt match the generated array, which will either confirm and progress the user to the next level, or will deny the user the ability to go to the next level because they have got the pattern wrong.
+
 #### Checking the endGame code
 
 ![Screenshot of checking if the endGame class is added when you loose is working](assets/img/endgame-class-check.png)
+
+* The above screenshot shows the endGame function in the body
 
 ### Known Issues
 
