@@ -169,7 +169,7 @@ For the type face, i used a cartoonish style to match the overall idea of the ga
 
 ### Known Issues
 
-* 
+* The red background in the endGame is not showing when the endGame is triggered, currently, at this moment in time, the actual cause is unknown as the endGame class gets added but the css style doe not function, so, i suspect that it is something to do with that either in the css or the javascript. 
 
 ---------
 ## Deployment
@@ -205,6 +205,9 @@ Forking the GitHub repository makes a copy of the original repository on your Gi
 ---------
 ## What To Improve Or Add
 
+* Add spongebob characters instead of having the placeholder colours
+* Add sound when pressing a button or when starting the game
+* 
 ---------
 ## Issues when making the project
 * Connecting the background image to the project - (FIXED) the code was fine, only problem was that i needed to clear my cache, once i did a hard reset by clicking reload in the dev-tools window i found that everything loaded.
