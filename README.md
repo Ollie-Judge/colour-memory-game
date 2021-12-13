@@ -82,7 +82,7 @@ For the type face, i used a cartoonish style to match the overall idea of the ga
 * Error found on line 36, attribute type not allowed on element div at this point
 * Error found on line 40, attribute type not allowed on element div at this point
 
-* all of these errors have been fixed by changing the type to a data type
+* All of these errors have been fixed by changing the type to a data type
 
 #### HTML corrected
 
@@ -207,7 +207,6 @@ Forking the GitHub repository makes a copy of the original repository on your Gi
 
 * Add spongebob characters instead of having the placeholder colours
 * Add sound when pressing a button or when starting the game
-* 
 ---------
 ## Issues when making the project
 * Connecting the background image to the project - (FIXED) the code was fine, only problem was that i needed to clear my cache, once i did a hard reset by clicking reload in the dev-tools window i found that everything loaded.
@@ -220,7 +219,7 @@ Forking the GitHub repository makes a copy of the original repository on your Gi
 
 * Colours appear in their own seperate columns which doesnt make it easy for the user to see or play the game - (FIXED) changed the height and width measurement units from rem to vh and vw to make the project more responsive to different devices.
 
-* when you loose the game the game jumps to level 1 instead of showing the game over message - (FIXED) the level display text was in the wrong place, stopping the if else statement from displaying correctly, due to the level text overriding the else part.
+* When you loose the game the game jumps to level 1 instead of showing the game over message - (FIXED) the level display text was in the wrong place, stopping the if else statement from displaying correctly, due to the level text overriding the else part.
 ---------
 ## Credits
 * https://wallpapercave.com/spongebob-underwater-wallpapers - for the background image
